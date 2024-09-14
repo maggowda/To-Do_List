@@ -1,0 +1,217 @@
+
+/*To add gradient to the background of the body*/
+.canvas{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(35deg, #d2001a, #7462ff,#f48e21,#23d5ab);
+    background-size: 300% 300%;
+    animation: color 15s ease-in-out infinite;
+    overflow-x: hidden;
+}
+@keyframes color {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*Fonts for the webpage*/
+@font-face {
+    font-family: 'alevia';
+    src: url(../Fonts/AleviaDEMO-Regular.otf);
+}
+@font-face {
+    font-family: 'breathney';
+    src: url(../Fonts/Breathney\ Demo.ttf);
+}
+@font-face {
+    font-family: 'corbert';
+    src: url(../Fonts/CorbertCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: 'golden';
+    src: url(../Fonts/Golden\ Theory\ Demo.otf);
+}
+@font-face {
+    font-family: 'magnolia';
+    src: url(../Fonts/Mangiola-Regular.ttf);
+}
+@font-face {
+    font-family: 'harmony';
+    src: url(../Fonts/Harmony\ Embrace\ Script\ Demo.ttf);
+}
+
+/* For scrollbar*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*For the body of the app*/
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 20px auto auto 20px;
+    cursor: default;
+}
+
+/* For the heading*/
+.heading{
+    font-family: 'golden';
+    font-size: 50px;
+    color: rgb(181, 17, 17);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*For the row of input and add*/
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: rgb(216, 214, 214);
+    border-radius: 30px;
+}
+
+/* For input tab*/
+.input{
+    margin-top: 0px;
+    background: transparent;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 15px;
+    flex: 1;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+    margin-right: 0px;
+    cursor: text;
+    font-family: alevia;
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+/* For the button*/
+button{
+    background-color:rgb(181, 17, 17);
+    color: rgb(247, 243, 243);
+    border-radius: 30px;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    font-size: 15px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 0px;
+    font-family: alevia;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* For the hover effect of add button*/
+button:hover{
+    background-color: rgb(247, 243, 243);
+    color: rgb(181, 17, 17);
+    border-style: solid;
+    border-color: rgb(181, 17, 17);
+    padding: 18px 48px 18px 48px;
+}
+
+/* For the list of tasks before checking*/
+ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: corbert;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 60px;
+    margin-right: 110px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 10px 10px 50px;
+}
+
+/* For the button of uncheck*/
+ul li::before{
+    content: '';
+    margin-right: 10px;
+    border-radius: 50%;
+    background-image: url(../images/unchecked.png);
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+    background-position: center;
+}
+
+/* For the list when checked*/
+ul li.checked{
+    text-decoration: line-through;
+    color: rgb(181, 17, 17);
+}
+
+/* For the list button when checked*/
+ul li.checked::before{
+    content: '';
+    margin-right: 10px;
+    border-radius: 50%;
+    background-image: url(../images/checked.png);
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-size: cover;
+    top: 12px;
+    left: 8px;
+    background-position: center;
+}
+
+/* For the cross mark button on the last*/
+ul li span{
+    position:absolute;
+    top: 12px;
+    right: 0px;
+    align-items: right;
+    line-height: 23px;
+    width: 28px;
+    height: 28px;
+    font-size: 22px;
+    color: rgb(181, 17, 17);
+    cursor: pointer;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/* For hover effect of the cross mark*/
+ul li span:hover{
+    background-color: rgb(181, 17, 17);
+    color: rgb(247, 243, 243);
+    border-radius: 50%;
+}
+
+/* For row3*/
+.row3{
+    margin-bottom: 50px;
+}
