@@ -274,7 +274,7 @@ ul li span:hover{
 }
 
 /*Tablets*/
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 715px) and (max-width: 768px) {
     .container{
         margin-left: 150px;
         margin-right: 150px;
@@ -293,6 +293,8 @@ ul li span:hover{
     ul li{
         font-size: 12px;
         padding: 7px 7px 7px 40px;
+        margin-left: 40px;
+        margin-right: 110px;
     }
     ul li::before{
         height: 22px;
@@ -326,9 +328,171 @@ ul li span:hover{
         margin-right: 80px;
     }
 }
+@media (min-width: 623px) and (max-width: 714px) {
+    .container{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .input{
+        padding: 15px 25px 15px 25px;
+        font-size: 12px;
+    }
+    button{
+        padding: 15px 25px 15px 25px;
+        font-size: 12px;
+    }
+    ul li{
+        font-size: 12px;
+        padding: 7px 7px 7px 40px;
+        margin-left: 40px;
+        margin-right: 110px;
+    }
+    ul li::before{
+        height: 22px;
+        width: 22px;
+        top: 6px;
+        left: 7px;
+    }
+    ul li.checked::before{
+        height: 22px;
+        width: 22px;
+        top: 6px;
+        left: 7px;
+    }
+    ul li span{
+        top: 5px;
+        right: 0px;
+        line-height: 18px;
+        width: 22px;
+        height: 22px;
+        font-size: 18px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 13px 23px 13px 23px;
+    }
+    .row2{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+@media (min-width: 546px) and (max-width: 622px) {
+    .container{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .input{
+        padding: 15px 25px 15px 25px;
+        font-size: 12px;
+    }
+    button{
+        padding: 15px 25px 15px 25px;
+        font-size: 12px;
+    }
+    ul li{
+        font-size: 12px;
+        padding: 7px 7px 7px 40px;
+        margin-left: 20px;
+        margin-right: 90px;
+    }
+    ul li::before{
+        height: 22px;
+        width: 22px;
+        top: 6px;
+        left: 7px;
+    }
+    ul li.checked::before{
+        height: 22px;
+        width: 22px;
+        top: 6px;
+        left: 7px;
+    }
+    ul li span{
+        top: 5px;
+        right: 0px;
+        line-height: 18px;
+        width: 22px;
+        height: 22px;
+        font-size: 18px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 13px 23px 13px 23px;
+    }
+    .row2{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
+@media (min-width: 425px) and (max-width: 545px) {
+    .container{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .input{
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+    }
+    button{
+        padding: 10px 20px 10px 20px;
+        font-size: 10px;
+    }
+    ul li{
+        font-size: 10px;
+        padding: 5px 5px 5px 30px;
+        margin-left: 20px;
+        margin-right: 60px;
+    }
+    ul li::before{
+        height: 18px;
+        width: 18px;
+        top: 5px;
+        left: 5px;
+    }
+    ul li.checked::before{
+        height: 18px;
+        width: 18px;
+        top: 5px;
+        left: 5px;
+    }
+    ul li span{
+        top: 4px;
+        right: 0px;
+        line-height: 15px;
+        width: 18px;
+        height: 18px;
+        font-size: 15px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 8px 18px 8px 18px;
+    }
+    .row2{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
 
 /*Small Laptops*/
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:960px) and (max-width: 1024px) {
     .container{
         margin-left: 250px;
         margin-right: 250px;
@@ -380,9 +544,156 @@ ul li span:hover{
         margin-right: 90px;
     }
 }
+@media (min-width:769px) and (max-width: 959px) {
+    .container{
+        margin-left: 170px;
+        margin-right: 170px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .input{
+        padding: 18px 28px 18px 28px;
+        font-size: 14px;
+    }
+    button{
+        padding: 18px 28px 18px 28px;
+        font-size: 14px;
+    }
+    ul li{
+        font-size: 14px;
+        padding: 8px 8px 8px 45px;
+    }
+    ul li::before{
+        height: 25px;
+        width: 25px;
+        top: 8px;
+        left: 8px;
+    }
+    ul li.checked::before{
+        height: 25px;
+        width: 25px;
+        top: 8px;
+        left: 8px;
+    }
+    ul li span{
+        top: 6px;
+        right: 0px;
+        line-height: 20px;
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 15px 25px 15px 25px;
+    }
+    .row2{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+/*Normal screen*/
+
+@media (min-width:1256px) and (max-width:1440px){
+    .heading{
+        font-size: 50px;
+    }
+    .input{
+        padding: 20px 30px 20px 30px;
+        font-size: 15px;
+    }
+    button{
+        padding: 20px 50px 20px 50px;
+        font-size: 15px;
+    }
+    ul li{
+        font-size: 17px;
+        padding: 10px 10px 10px 50px;
+        margin-left: 100px;
+        margin-right: 170px;
+    }
+    ul li::before{
+        height: 28px;
+        width: 28px;
+        top: 12px;
+        left: 8px;
+    }
+    ul li span{
+        top: 12px;
+        right: 0px;
+        line-height: 23px;
+        width: 28px;
+        height: 28px;
+        font-size: 22px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 18px 48px 18px 48px;
+    }
+    .row2{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+@media (min-width:1025px) and (max-width:1256px){
+    .container{
+        margin-left: 130px;
+        margin-right: 130px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .input{
+        padding: 20px 30px 20px 30px;
+        font-size: 15px;
+    }
+    button{
+        padding: 20px 50px 20px 50px;
+        font-size: 15px;
+    }
+    ul li{
+        font-size: 17px;
+        padding: 10px 10px 10px 50px;
+        margin-left: 100px;
+        margin-right: 170px;
+    }
+    ul li::before{
+        height: 28px;
+        width: 28px;
+        top: 12px;
+        left: 8px;
+    }
+    ul li span{
+        top: 12px;
+        right: 0px;
+        line-height: 23px;
+        width: 28px;
+        height: 28px;
+        font-size: 22px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 18px 48px 18px 48px;
+    }
+    .row2{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
 
 /* 4K displays*/
-@media (min-width:1441px) and (max-width:2560px){
+@media (min-width:2280px) and (max-width:2560px){
     .container{
         margin-left: 750px;
         margin-right: 750px;
@@ -428,5 +739,101 @@ ul li span:hover{
     .row2{
         margin-left: 200px;
         margin-right: 200px;
+    }
+}
+@media (min-width:1650px) and (max-width:2280px){
+    .container{
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .input{
+        padding: 20px 30px 20px 30px;
+        font-size: 15px;
+    }
+    button{
+        padding: 20px 50px 20px 50px;
+        font-size: 15px;
+    }
+    ul li{
+        font-size: 17px;
+        padding: 10px 10px 10px 50px;
+        margin-left: 200px;
+        margin-right: 270px;
+    }
+    ul li::before{
+        height: 28px;
+        width: 28px;
+        top: 12px;
+        left: 8px;
+    }
+    ul li span{
+        top: 12px;
+        right: 0px;
+        line-height: 23px;
+        width: 28px;
+        height: 28px;
+        font-size: 22px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 18px 48px 18px 48px;
+    }
+    .row2{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+@media (min-width:1441px) and (max-width:1650px){
+    .container{
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    .input{
+        padding: 20px 30px 20px 30px;
+        font-size: 15px;
+    }
+    button{
+        padding: 20px 50px 20px 50px;
+        font-size: 15px;
+    }
+    ul li{
+        font-size: 17px;
+        padding: 10px 10px 10px 50px;
+        margin-left: 200px;
+        margin-right: 270px;
+    }
+    ul li::before{
+        height: 28px;
+        width: 28px;
+        top: 12px;
+        left: 8px;
+    }
+    ul li span{
+        top: 12px;
+        right: 0px;
+        line-height: 23px;
+        width: 28px;
+        height: 28px;
+        font-size: 22px;
+    }
+    button:hover{
+        background-color: rgb(247, 243, 243);
+        color: rgb(181, 17, 17);
+        border-style: solid;
+        border-color: rgb(181, 17, 17);
+        padding: 18px 48px 18px 48px;
+    }
+    .row2{
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
